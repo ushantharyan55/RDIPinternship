@@ -1,0 +1,2 @@
+A version control system is a software utility that tracks and manages changes to a file system.
+A VCS also offers collaborative utilities to share and integrate these file system changes to other VCS users. 
