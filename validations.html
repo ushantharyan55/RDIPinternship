@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+Phone Number: <input type="text" id="txtName"/>
+<br/>
+<br/>
+<input type="button" value="Submit" onclick="Validate()"/>
+<br>
+c: <input type="checkbox" id="myCheck"><br>
+cpp: <input type="checkbox" id="myCheck"><br>
+java: <input type="checkbox" id="myCheck"><br>
+python: <input type="checkbox" id="myCheck"><br>
+
+
+<button onclick="myFunction()">Click</button>
+
+<script type="text/javascript">
+    function Validate() {
+        var regex = /^[0-9]+$/
+        var isValid = regex.test(document.getElementById("txtName").value);
+        if (!isValid) {
+            alert("Only Numbers allowed.");
+        }
+ 
+        return isValid;
+		}
+function myFunction() {
+ var x = document.getElementById("myCheck");
+ x.checked = true;
+}
+</script>
+</body>
+</html>
