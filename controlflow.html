@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><title>fibonacci series</title>
+<script>
+function fibonacci(){
+    var A = 0;
+    var B = 1;
+    var C;
+ 
+    var N = document.getElementById("number").value;
+ 
+    document.write(A+"<br />");
+    document.write(B+"<br />");
+	for(var i=1;i<=N;i++)
+	{
+		if(i>=3)
+		{
+        C = A + B;
+        A = B;
+        B = C;
+ 
+        document.write(C+"<br />");
+		}
+    }
+}
+</script>
+</head>
+<body>
+<h2>
+Enter a number<input id="number" value="15">
+<button type="button" onclick="fibonacci()">fibonacci</button>
+</h2>
+</body>
+</html>
