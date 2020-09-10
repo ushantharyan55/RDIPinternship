@@ -1,4 +1,4 @@
-Important Points:
+Important observations and changes:
 1. The words that are selected by the user should be displayed in the order they are actually selected.
 2. The sentence that is formed by the user should exactly match the correct sentence then only the output should be right answer.
 3. All the buttons should function as per their functionality.
