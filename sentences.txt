@@ -1,0 +1,9 @@
+Important Points:
+1. The words that are selected by the user should be displayed in the order they are actually selected.
+2. The sentence that is formed by the user should exactly match the correct sentence then only the output should be right answer.
+3. All the buttons should function as per their functionality.
+4. The dropdown with the options English, Hindi, and Select Language should be selective.
+5. Once you select any language and if you again selcet on Select language option from the dropdown menu everything that are displayed before should be disappeared.
+6. Whenever the user tries to select English and Hindi randomly, new sentences should be coming everytime i.e, they should not be repeatative.
+7. Always the words should be in jumbled order and every word should able to get selected individually.
+8.  The resultant sentence should always be hidden until the user selects to reveal the answer i.e, by clicking on Get correct sentence button.
